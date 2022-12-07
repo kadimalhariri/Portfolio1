@@ -285,4 +285,11 @@ section {
         display: block;
         padding: 10px;
     }
+    .carousel {
+        height: 550px;
+        background-color: #02CBA8;
+    }
+    .carousel img {
+        height: 550px;
+    }
 }
