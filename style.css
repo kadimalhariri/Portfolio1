@@ -107,12 +107,15 @@ section {
 }
 .card{
     background-color: white;
-    width: 21.25em;
+    width: 20em;
     box-shadow: 0 5px 25px rgba(1 1 1 / 15%);
     border-radius: 10px;
     padding: 25px;
     margin: 15px;
     transition: 0.7s ease;
+}
+.ff {
+    background-color: #32db9a;
 }
 .card:hover{
     transform: scale(1.1);
@@ -235,6 +238,7 @@ section {
 .carousel img {
     height: 820px;
 }
+
 @media (max-width:1023px){
     header{
         padding: 12px 20px;
@@ -255,4 +259,30 @@ section {
         font-size: 1.6em;
     }
 
+}
+@media (max-width: 414px) {
+    .footer-title {
+        font-size: 1em;
+    }
+    #btn-hidde {
+        display: block !important;
+        margin-right: 20px;
+    }
+    #btn-hidde:hover + nav{
+        display: block;
+    }
+    .nav {
+        position: absolute;
+        top: 90px;
+        display: none;
+        right: 0;
+        background-color: #f0f0f0;
+        width: 130px;
+        
+
+    }
+    .nav a {
+        display: block;
+        padding: 10px;
+    }
 }
