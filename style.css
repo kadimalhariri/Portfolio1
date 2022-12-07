@@ -159,6 +159,9 @@ section {
 .info .laravel {
     color: #F72B1E;
 }
+.kk h3 {
+    padding: 30px;
+}
 .projects{
     background-color: #02CBA8;
 }
@@ -291,5 +294,9 @@ section {
     }
     .carousel img {
         height: 550px;
+    }
+    .kk .info {
+        flex-direction: column;
+        color: red;
     }
 }
