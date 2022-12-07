@@ -238,6 +238,15 @@ section {
     font-size: 1.5em;
     
 }
+.al-hariri a{
+    color: black;
+    text-decoration: none;
+    display: none;
+}
+.al-hariri h4 {
+    margin-top: -26px;
+    
+}
 .footer{
     background-color: white;
     color: black;
@@ -316,5 +325,14 @@ section {
     .kk .info {
         flex-direction: column;
         color: red;
+    }
+    .al-hariri a{
+        
+        text-decoration: none;
+        display: block;
+    }
+    .al-hariri h4 {
+        display: none;
+        margin-top: -26px;
     }
 }
