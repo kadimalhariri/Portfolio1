@@ -34,7 +34,7 @@ header{
     padding-left: 30px;
 }
 .nav a:hover{
-    color: blue;
+    color: #0B58CA;
 }
 section {
     padding: 100px 200px;
@@ -226,7 +226,7 @@ section {
     color: #02CBA8;
 }
 .show-more:hover{
-    color: blue;
+    color: #0B58CA;
 }
 .contact .icon{
     font-size: 4.5em;
